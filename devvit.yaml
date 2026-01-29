@@ -1,0 +1,8 @@
+name: testappp121
+description: Handles user subscriptions via wiki
+version: 1.0.0
+permissions:
+  - posts
+  - comments
+  - wiki
+  - mod

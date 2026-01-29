@@ -1,0 +1,11 @@
+{
+    "extends": "@devvit/public-api/devvit.tsconfig.json",
+    "compilerOptions": {
+        "allowJs": false,
+        "checkJs": false,
+        "outDir": "./dist",
+        "rootDir": "./src",
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+}

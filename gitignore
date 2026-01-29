@@ -1,0 +1,11 @@
+node_modules
+
+# Compiled JavaScript files (generated from TypeScript)
+*.js
+*.js.map
+
+# TypeScript build info
+*.tsbuildinfo
+
+# But keep config files if any
+!*.config.js
