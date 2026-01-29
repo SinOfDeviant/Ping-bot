@@ -1,23 +1,11 @@
-# Getting started with bcr-bot
-
-Your project has been created using a Devvit template.
-
-## Next up
-
-Next up is uploading and developing your app using playtest.
-
-In the project directory, you can run:
-
-### `npm run deploy`
-
-Upload the app to the App Directory. Uploaded apps are only visible to you (the app owner) and can only be installed to a small test subreddit with less than 200 subscribers.
-
-### `npm run dev`
-
-Installs your app to your test subreddit and starts a playtest session where a new version is installed whenever you save changes to your app code, and logs are continuously streamed.
-
-## Learn more
-
-You can learn more in the [documentation](https://developers.reddit.com/docs/).
-
-You can manage your apps in the [developer portal](https://developers.reddit.com/my/apps).
+A group-based ping/notification bot for Reddit communities built using Devvit.
+Allows users to subscribe to interest groups and ping group members via comment commands, with full moderator controls, blacklist support, and persistent wiki-backed storage..
+Features:
+Group-based ping system (!ping <group>)
+Subscribe / ➖ Unsubscribe via comments
+Persistent storage using subreddit wiki
+Moderator blacklist (via mod menu)
+Ping usage statistics per group
+Configurable groups via app settings (up to 12)
+Mods-only wiki access
+Case-insensitive usernames
